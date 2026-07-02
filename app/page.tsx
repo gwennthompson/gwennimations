@@ -11,17 +11,17 @@ export default function Home() {
 
       <hr style={{ margin: "2rem 0" }} />
 
-      <h2>About this site</h2>
+      <h2><b>About This Site</b></h2>
       <p style={{ maxWidth: "600px" }}>
         This is the beginning of a long-term project. I am learning to build small systems.
         The goal of this is to create a space that reflects how I think and create,
         and to eventually create a community in which ideas are shared and grown, a virtual third place.
       </p>
 
-      <h2>Current Status</h2>
+      <h2><b>Current Status</b></h2>
       <p>Phase 1: Foundation - project setup and first dpeloyment</p>
 
-      <h2>What's Next</h2>
+      <h2><b>What's Next</b></h2>
       <p>
         Gradual expansion of this space to include writing, projects, and experiments.
       </p>
