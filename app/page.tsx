@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Gwennimations</h1>
 
       <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
-        A personal space I'm building to explore ideas, projects, and writing.
+        A journey of thought and wonder, told one small story at a time.
       </p>
 
       <hr style={{ margin: "2rem 0" }} />
