@@ -2,7 +2,7 @@ export default function Writing() {
   return (
     <div>
       <h1>Writing</h1>
-      <p>This is my writing page.</p>
+      <p>This page is for thoughts, ponderings, ideas, and reflections.</p>
     </div>
   );
 }
