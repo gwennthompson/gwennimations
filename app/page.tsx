@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+    <body>
     <main style={{ padding: "3rem", fontFamily: "system-ui"}}>
       <h1>Gwennimations</h1>
 
@@ -19,7 +20,7 @@ export default function Home() {
       </p>
 
       <h2><b>Current Status</b></h2>
-      <p>Phase 1: Foundation - project setup and first dpeloyment</p>
+      <p>Phase 1: Foundation - project setup and first deployment</p>
 
       <h2><b>What's Next</b></h2>
       <p>
@@ -30,5 +31,6 @@ export default function Home() {
         Built with Next.js • First deployed July 2026
       </p>
     </main>
+    </body>
   );
 }
