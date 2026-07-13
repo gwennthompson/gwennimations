@@ -1,8 +1,10 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <main style={{ padding: "3rem", fontFamily: "system-ui"}}>
+    <main 
+      className="min-h-screen bg-[#292824]"
+      style={{ padding: "3rem", fontFamily: "system-ui"}}>
       <h1>Gwennimations</h1>
 
       <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
@@ -11,17 +13,17 @@ export default function Home() {
 
       <hr style={{ margin: "2rem 0" }} />
 
-      <h2><b>About This Site</b></h2>
+      <h2>About This Site</h2>
       <p style={{ maxWidth: "600px" }}>
         This is the beginning of a long-term project. I am learning to build small systems.
         The goal of this is to create a space that reflects how I think and create,
         and to eventually create a community in which ideas are shared and grown, a virtual third place.
       </p>
 
-      <h2><b>Current Status</b></h2>
+      <h2>Current Status</h2>
       <p>Phase 1: Foundation - project setup and first deployment</p>
 
-      <h2><b>What's Next</b></h2>
+      <h2>What's Next</h2>
       <p>
         Gradual expansion of this space to include writing, projects, and experiments.
       </p>
