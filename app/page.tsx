@@ -23,7 +23,7 @@ export default function Home() {
       <h2>Current Status</h2>
       <p>Phase 2: Foundation - layout and design components</p>
 
-      <h2>What's Next</h2>
+      <h2>Future Trajectory</h2>
       <p>
         Gradual expansion of this space to include writing, projects, and experiments.
       </p>
