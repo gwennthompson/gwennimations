@@ -3,15 +3,15 @@
 export default function Home() {
   return (
     <main 
-      className="min-h-screen bg-[#292824]"
+      className="min-h-screen bg-[#292824] text-[#E5D8C0] p-12"
       style={{ padding: "3rem", fontFamily: "system-ui"}}>
-      <h1>Gwennimations</h1>
+      <h1 className="font-cormorant text-5xl">Gwennimations</h1>
 
       <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
         A journey of thought and wonder, told one small story at a time.
       </p>
 
-      <hr style={{ margin: "2rem 0" }} />
+      <hr className="border-[#B87333] my-8" />
 
       <h2>About This Site</h2>
       <p style={{ maxWidth: "600px" }}>
@@ -21,7 +21,7 @@ export default function Home() {
       </p>
 
       <h2>Current Status</h2>
-      <p>Phase 1: Foundation - project setup and first deployment</p>
+      <p>Phase 2: Foundation - layout and design components</p>
 
       <h2>What's Next</h2>
       <p>
