@@ -1,23 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { Cormorant_Garamond } from "next/font/google";
+import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
-import Link from 'next/link'
+import Navbar from "@/components/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -33,18 +28,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${cormorant.variable} h-full antialiased`}
+      className={`${inter.variable} ${cormorant.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <nav className="flex items-center justify-center text-[#E5D8C0] bg-[#43475A]"> 
-          <Link href="/library/">Library</Link>
-          <Link href="/studio/">Studio</Link>
-          <Link href="/">Gwennimations</Link> 
-          <Link href="/workshop/">Workshop</Link>
-          <Link href="/fireside/">The Fireside</Link> 
-          <Link href="/about/">About</Link>
-        </nav>
-
+      <body className="min-h-full flex flex-col">      
+        <Navbar />
         <main>
           {children}
         </main>
