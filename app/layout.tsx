@@ -36,10 +36,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <nav className="text-[rgb(60,80,104)]">
-          <Link href="/">Home</Link> |
-          <Link href="/writing/">Writing</Link> |
-          <Link href="/projects/">Projects</Link> |
+        <nav className="flex items-center justify-center text-[#E5D8C0] bg-[#43475A]"> 
+          <Link href="/writing/">Library</Link>
+          <Link href="/">Gwennimations</Link> 
+          <Link href="/projects/">Workshop</Link> 
           <Link href="/about/">About</Link>
         </nav>
 
