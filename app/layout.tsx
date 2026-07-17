@@ -37,9 +37,11 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <nav className="flex items-center justify-center text-[#E5D8C0] bg-[#43475A]"> 
-          <Link href="/writing/">Library</Link>
+          <Link href="/library/">Library</Link>
+          <Link href="/studio/">Studio</Link>
           <Link href="/">Gwennimations</Link> 
-          <Link href="/projects/">Workshop</Link> 
+          <Link href="/workshop/">Workshop</Link>
+          <Link href="/fireside/">The Fireside</Link> 
           <Link href="/about/">About</Link>
         </nav>
 

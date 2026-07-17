@@ -1,5 +1,22 @@
 # Gwennimations Notes
 
+# Gwennimations Village
+
+## Library
+A place for written stories
+
+## Studio
+A place for animations and visual storytelling.
+
+## Workshop
+A place for functional creations.
+
+## Fireside
+A place for community and shared ideas
+
+## About
+A place to meet the creator
+
 ## Current Focus
 - Navbar
 - Homepage layout
@@ -30,3 +47,6 @@
 
 ## Questions
  
+
+ 
+
