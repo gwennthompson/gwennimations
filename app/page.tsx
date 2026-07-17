@@ -15,9 +15,10 @@ export default function Home() {
 
       <h2>About This Site</h2>
       <p style={{ maxWidth: "600px" }}>
-        This is the beginning of a long-term project. I am learning to build small systems.
-        The goal of this is to create a space that reflects how I think and create,
-        and to eventually create a community in which ideas are shared and grown, a virtual third place.
+        This is the beginning of a long-term project. Initially I intended to share the goal of 
+        this project, but as it turns out, there is no goal. The building of this site is simply
+        about the journey. I want to journey into the unkown, and I would love it
+        if you join me.
       </p>
 
       <h2>Current Status</h2>
