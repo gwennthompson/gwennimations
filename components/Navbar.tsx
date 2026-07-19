@@ -7,14 +7,15 @@ export default function Navbar() {
           
         <Link href="/library">Library</Link>
         <Link href="/studio">Studio</Link>
+        <Link href="/workshop">Workshop</Link>
           
         <div className="font-cormorant text-3xl text-[#F2E8D5] text-center">
             <Link href="/">Gwennimations</Link> 
         </div>
           
-        <Link href="/workshop">Workshop</Link>
         <Link href="/fireside">The Fireside</Link> 
         <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
         
         </div>
     </nav>
