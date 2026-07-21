@@ -3,6 +3,9 @@
 :root {
   --background: #292824;
   --foreground: #E5D8C0;
+  --stormy-twilight: #43475A;
+  --parchment: #E5D8C0;
+  --lantern-gold: #D8A15D;
 }
 
 @theme inline {

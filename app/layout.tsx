@@ -32,12 +32,12 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">      
         <Navbar />
-        <main className="flex-1">
+        <main className="flex-1 px-10 py-12">
           {children}
         </main>
 
-        <footer>
-          <p>Take a breath, sip some tea, and stay a while</p>
+        <footer className="border-t border-[#4F5148] py-8 text-center">
+          <p className="font-cormorant italic text-lg text-[#C8BCA8]">Take a breath, sip some tea, and stay a while</p>
         </footer>       
       </body>
     </html>

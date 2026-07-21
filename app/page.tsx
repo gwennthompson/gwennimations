@@ -3,8 +3,7 @@
 export default function Home() {
   return (
     <main 
-      className="min-h-screen bg-[#292824] text-[#E5D8C0] p-12"
-      style={{ padding: "3rem", fontFamily: "system-ui"}}>
+      className="min-h-screen bg-[#292824] text-[#E5D8C0] p-12">
       <h1 className="font-cormorant text-5xl">Gwennimations</h1>
 
       <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
