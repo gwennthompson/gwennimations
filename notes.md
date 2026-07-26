@@ -1,6 +1,7 @@
 # Gwennimations Notes
 
 # Gwennimations Village
+Buildings representing each of the links
 
 ## Library
 A place for written stories
@@ -25,6 +26,7 @@ A place to meet the creator
 - Fireflies on hover
 - Seasonal leaves falling
 - Hidden quotes
+- nav bar for mobile is a scroll that unrolls to reveal a map (the navigation)
 
 ## Design ideas
 - Warm parchment text
