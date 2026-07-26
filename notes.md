@@ -27,6 +27,12 @@ A place to meet the creator
 - Seasonal leaves falling
 - Hidden quotes
 - nav bar for mobile is a scroll that unrolls to reveal a map (the navigation)
+- a lantern glows a little brighter every so often
+- a leaf drifts across the path every few minutes
+- one window in the Library flickers as though someone turned a page
+- a tiny firefly appears at dusk and disappears
+- optional sounds (rain, fire crackling, crickets, wind, etc.)
+- a few changing greetings
 
 ## Design ideas
 - Warm parchment text
