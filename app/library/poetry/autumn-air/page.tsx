@@ -19,7 +19,7 @@ export default function AutumnAir() {
                 There's only joy<br/>
                 No need to mourn<br />
                 Fall is finally here at last<br />
-                Let go of grief from seasons past
+                Let go of grief from seasons passed
             </p>
         </article>
     );
