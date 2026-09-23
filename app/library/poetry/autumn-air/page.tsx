@@ -1,6 +1,6 @@
 export default function AutumnAir() {
     return (
-        <article>
+        <article className="text-center">
             <h1>Autumn Air</h1>
 
             <p>
