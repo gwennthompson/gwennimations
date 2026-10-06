@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <body>
+    <div>
       <h1>About</h1>
       <h2>Hello there. Welcome.</h2>
       <p>
@@ -16,6 +16,6 @@ export default function About() {
         where I can share, explore, and connect with other curious minds. So if you find yourself here,
         welcome. I am happy you are part of this adventure.
       </p>
-    </body>
+    </div>
   );
 }
